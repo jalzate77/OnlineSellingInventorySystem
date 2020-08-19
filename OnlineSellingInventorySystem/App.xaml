@@ -1,0 +1,33 @@
+﻿<Application x:Class="OnlineSellingInventorySystem.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:OnlineSellingInventorySystem"
+             xmlns:ui="http://schemas.modernwpf.com/2019">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                
+                <ui:ThemeResources RequestedTheme="Dark" />
+                <ui:XamlControlsResources />
+                <!--<ui:IntellisenseResources Source="/ModernWpf;component/DesignTime/DesignTimeResources.xaml" />-->
+
+                <ResourceDictionary>
+                    
+                    <local:MefBootstrapper x:Key="Bootstrapper"/>
+
+                    <SolidColorBrush Color="#FF0D1321" x:Key="RichBlack"/>
+                    <SolidColorBrush Color="#FF1D2D44" x:Key="PrussianBlue"/>
+                    <SolidColorBrush Color="#FF3E5C76" x:Key="BlackCoral"/>
+                    <SolidColorBrush Color="#FF748CAB" x:Key="ShadowBlue"/>
+                    <SolidColorBrush Color="#FFF0EBD8" x:Key="EggShell"/>
+                    <SolidColorBrush Color="#FFDADFF7" x:Key="LavenderWeb"/>
+
+                    <SolidColorBrush Color="#FF1E1E1E" x:Key="VSBody"/>
+                    <SolidColorBrush Color="#FFF1F1F1" x:Key="VSText"/>
+                    <SolidColorBrush Color="#FF2D2D30" x:Key="VSDivider"/>
+                    
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
